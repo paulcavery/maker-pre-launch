@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #080c20;
+    font-family: 'Manrope',
+    sans-serif;
+    position: relative;
+}
+.rowhead {
+    height: 20vh;
+    background-image: url(/assets/logo.svg);
+    width: 20%;
+    flex: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15vh;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.row1 .pic1 {
+    background-image: url(/assets/illustration-hero-left.svg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 25%;
+    background-position: right center;
+}
+.row1 .headerTop {
+    background-image: url(/assets/bg-hero-squiggle.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    padding: 5% 0;
+    height: 60vh;
+    width: 30%;
+}
+.headerTop h1 {
+    font-size: 2em;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 5vh;
+}
+.headerTop p {
+    font-size: .75em;
+    font-weight: 400;
+    color: #777f98;
+    text-align: center;
+}
+.headerTop div {
+    background-image: url(/assets/icon-scroll.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh;
+}
+h1 span {
+    color: #3ee9e5;
+}
+
+.row1 .pic2 {
+     background-image: url(/assets/illustration-hero-right.svg);
+     background-repeat: no-repeat;
+     height: 400px;
+     width: 25%;
+     background-position: left center;
+}
+.row2 {
+     display: flex;
+     justify-content: space-evenly;
+     align-content: center;
+     text-align: left;
+     margin-left: 3.5vw;
+     margin-top: 10vh;
+     margin-bottom: 20vh;
+}
+.row2 .image {
+    margin-bottom: 7.5vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 5rem;
+      width: 10rem;
+      height: 10rem;
+      background-color: #093f68;
+      border-radius: 45px;
+}
+.row2 h4 {
+    font-size: 1.2em;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 5vh;
+}
+.row2 p {
+    font-size: .9rem;
+    font-weight: 400;
+    color: #777f98;
+    width: 15rem;
+    line-height: 1.5rem;
+}
+.iconPassion .image {
+    background-image: url(/assets/illustration-passions.svg);
+}
+.iconFreedom .image {
+    background-image: url(/assets/illustration-financial-freedom.svg);
+   
+    /* background-size: 13vh; */
+}
+.iconLifestyle .image {
+    background-image: url(/assets/illustration-lifestyle.svg);
+  
+}
+.iconWork .image {
+    background-image: url(/assets/illustration-work-anywhere.svg);
+    background-size: 75%;
+}
+.iconFreedom {
+    padding-top: 4%;
+}
+.iconWork {
+    padding-top: 4%;
+}
+.row3 {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    
+}
+.row3 h3 {
+    font-weight: 800;
+    font-size: 2em;
+    margin-bottom: 5vh;
+}
+.row3 p {
+    font-weight: 400;
+    font-size: 1em;
+    color: #777f98;
+    width: 45vw;
+    margin-bottom: 125px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+}
+.row4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    height: 500px;
+    margin-bottom: 125px;
+
+}
+.midHeader {
+    text-align: center;
+}
+
+.cardOne {
+    width: 35%;
+    background-color: #093f68;
+    color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    height: 27rem;
+    margin-top: 10px;    
+}
+.free {
+    background-image: url(/assets/icon-free.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: -2%;
+    left: 16.5%;
+}
+.paid {
+    background-image: url(/assets/icon-paid.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 51px;
+    height: 65px;
+    top: -7%;
+    left: 54.5%
+}
+.row4 h4 {
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    margin-top: 7.5%;
+}
+.row4 p {
+    font-weight: 400;
+    font-size: .95rem;
+    color: #777f98;
+    margin-bottom: 25px;
+}
+.row4 li {
+     font-weight: 400;
+     font-size: .95em;
+     list-style: none;
+     margin-bottom: 15px;
+}
+
+.cardTwo {
+    background-color: #3ee9e5;
+    width: 35%;
+    padding: 2rem;
+    margin-left: 3vw;
+    border-radius: 10px;
+    height: 29rem;
+    align-self: top;
+}
+.cardTwo li {
+    color: #080c20;
+}
+.row4 h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+.cardTwo h2 span {
+    color: #777f98;
+    font-size: .4em;
+    font-weight: 400;
+    line-height: 45px;
+    vertical-align: top;
+    padding-left: 5px;
+}
+
+
+i img {
+    margin-right: .5vw;
+}
+.row5 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    height: auto;
+}
+.email {
+    position: relative;
+    margin-top: 25px;
+}
+.footerBackground {
+    background-image: url(/assets/bg-footer-squiggle.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 95vw 35vh;
+    width: 100%;
+    height: 300px;  
+    position: absolute;
+    padding-top: 75px;
+}
+.row5 h4 {
+    font-weight: 800;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 30px;
+}
+.row5 input {
+    background-color: #093f68;
+    height: 50px;
+    width: 25vw;
+    border-radius: 50px;
+    padding-left: 20px;
+}
+::placeholder {
+    font-weight: 400;
+    font-size: 1em;
+    font-family: 'Manrope',
+    sans-serif;
+     color: rgba(255, 255, 255, 0.5);
+}
+.row5 button {
+    background-color: #3ee9e5;
+    color: #093f68;
+    font-weight: 800;
+    font-family: 'Manrope',
+    sans-serif;
+    height: 50px;
+    width: 10vw;
+    text-align: center;
+    border-radius: 50px;
+    border: 3px solid #3ee9e5;
+    margin-left: 20px;
+}
+.row5 button:hover {
+    background-color: #080c20;
+    color: #ffffff;
+}
+input:focus {
+    border: 3px solid #3ee9e5;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Manrope',
+    sans-serif;
+    background-color: #093f68;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px #093f68 inset;
+    -webkit-text-fill-color:#ffffff;
+}
+#email.error {
+    border: 3px solid #FF2965;
+    font-weight: 400;
+    font-size: 1em;
+    font-family: 'Manrope',
+    sans-serif;
+     color: rgba(255, 255, 255);
+}
+#email.success {
+    border: 1px solid #093f68;
+    font-weight: 400;
+    font-size: 1em;
+    font-family: 'Manrope',
+    sans-serif;
+     color: rgba(255, 255, 255);
+}
+#error {
+    color: #FF2965;
+    font-size: .75em;
+    text-align: left;
+    padding-left: 5%;
+}
+#success {
+    color: #3ee9e5;
+    font-size: .75em;
+    padding-right: 110px;
+}
+/* Phone/Small Tablet View */
+@media only screen and (max-width: 767px) {
+    .rowhead {
+        width: 100%;
+        height: 30vh;
+        background-size: 25vh;
+    }
+    .row1 .headerTop {
+        width: 75%;
+        margin: auto;
+        background-image: none;
+        height: 50vh;
+    }
+    .headerTop h1 {
+        font-size: 2.25em;
+    }
+    .headerTop p {
+        font-size: 1em;
+    }
+    
+    .row1 {
+        flex-wrap: wrap;
+        margin-bottom: 10%;
+    }
+    .row1 .pic1, .row1 .pic2 {
+        width: 50%;
+        background-size: 100%;
+    }
+    .row1 .pic1 {
+        position: relative;
+    }
+    .row1 .pic2 {
+        position: absolute;
+        right: 0;   
+    }
+    .row2 {
+        flex-wrap: wrap;
+
+    }
+    .row2 .iconPassion {
+        margin-top: 15%;
+    }
+
+    .row2 .iconFreedom,
+    .row2 .iconLifestyle,
+    .row2 .iconPassion,
+    .row2 .iconWork {
+        display: flex;
+        width: 75%;
+        flex-direction: column;
+        margin-left: 0;
+        margin-bottom: 10%;
+    }
+    .row2 .content {
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+    .row2 .content p {
+        width: 100%;
+        font-size: 1em;
+    }
+    .row2 div .image {
+        margin-left: 25%;
+    }
+    .row3 h3 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .row3 p {
+        width: 18rem;
+    }
+    .row4 .cardOne, .row4 .cardTwo {
+        width: 80%;
+    }
+    .row4 .free{
+        left: 15%;
+    }
+    .row4 .paid{
+        top: 47%;
+        left: 15%;
+    }
+    .row4 {
+        margin-bottom: 10%;
+    }
+    .row5 h4 {
+        font-size: 1.5rem;
+        width: 15rem;
+        margin: 3rem auto;
+    }
+    .emailForm #email {
+        width: 75%
+    }
+   #submit {
+       margin-top: 5%;
+       width: 75%;
+       margin-left: 0;
+   }
+}
+/* Tablet View */
+@media only screen and (max-width: 991px) {
+    .row2 {
+    
+        flex-wrap: wrap;   
+    }
+    .row2 .image {
+        float: left;
+        margin-right: 7.5%;
+    }
+
+    .content h4 {
+        margin: 0;
+        margin-bottom: 3%;
+        font-size: 1.15em;
+    }
+    .content p {
+        width: 75%;
+        line-height: 25px;
+        font-size: .9em;
+    }
+    .content {
+       display: flex;
+       flex-direction: column;
+       margin-top: 3%;
+    }
+    .iconFreedom,
+    .iconWork {
+        width: 100%;
+        margin-left: 15%;
+        padding-top: 1%;
+        }
+    .iconLifestyle, .iconPassion {
+        width: 100%;
+        margin-left: 22.5%;
+        padding-top: 1%;
+    }
+   .row4 {
+       flex-direction: column;
+       width: 100%;
+       align-items: center;
+       height: auto
+   }
+   .cardOne, .cardTwo {
+       width: 60%;
+       padding: 5vw;
+       padding-bottom: 3rem;
+        margin-bottom: 5rem;
+        margin-left: 0;
+        height: 26rem;
+   }
+   .free {
+       top: -5px;
+       left: 25vw;
+   }
+   .paid {
+       top: 29rem;
+       left: 12rem;
+   }
+   .row5 input {
+       width: 40vw;
+   }
+   .row5 button {
+       width: 15vw;
+       font-weight: 800;
+   }
+}
